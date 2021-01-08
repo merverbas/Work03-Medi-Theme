@@ -1,0 +1,138 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: auto;
+}
+
+.button {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.button--white {
+  border: 2px solid #FFFFFF;
+  padding: 18px 25px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1B0A42;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.button--purple {
+  border: 2px solid #824FF1;
+  background: #824FF1;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: bold;
+  padding: 18px 25px;
+  margin-top: 15px;
+}
+
+.button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-box-shadow: 2px 2px 2px 2px rgba(20, 9, 10, 0.1);
+          box-shadow: 2px 2px 2px 2px rgba(20, 9, 10, 0.1);
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.header .nav-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .nav-wrap .logo {
+  margin-top: 5px;
+}
+
+.header .nav-wrap .nav__item {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1B0A42;
+}
+
+.header .nav-wrap .nav__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header .nav-wrap .nav__item--active {
+  border-bottom: 2px groove #824FF1;
+}
+
+.header .nav-wrap .nav__item:hover {
+  border-bottom: 2px groove #824FF1;
+}
+
+.header .nav-wrap a {
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+.page .page-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.page .page-wrap .left-part {
+  max-width: 600px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.page .page-wrap .left-part .title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 76px;
+  letter-spacing: 0.02em;
+  color: #1B0A42;
+}
+
+.page .page-wrap .left-part .desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #9A9A9A;
+  margin-bottom: 50px;
+}
+
+.page .page-wrap .right-part {
+  position: relative;
+  max-width: 650px;
+  max-height: 700px;
+}
+
+.page .page-wrap .img1 {
+  position: absolute;
+  margin-top: -600px;
+  margin-left: -80px;
+}
+/*# sourceMappingURL=Medi.css.map */

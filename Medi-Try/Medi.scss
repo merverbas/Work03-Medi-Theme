@@ -1,0 +1,139 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    margin: auto;
+    
+}
+
+.button{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    &--white{
+        border: 2px solid #FFFFFF;
+        padding: 18px 25px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #1B0A42;
+        margin-top: 15px;
+        border-radius: 10px;
+        
+    }
+    &--purple{
+        border: 2px solid #824FF1;
+        background: #824FF1;
+        border-radius: 10px;
+        font-size: 16px;
+        line-height: 24px;
+        font-style: normal;
+        font-weight: bold;
+        padding: 18px 25px;
+        margin-top: 15px;
+        
+
+    }
+
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 2px 2px 2px 2px rgba(20, 9, 10, 0.1);;
+    }
+
+}
+
+.header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    .nav-wrap{
+
+        display: flex;
+        justify-content: space-between;
+
+         .logo{
+             margin-top: 5px;
+         }
+
+        .nav{
+
+
+            &__item{
+                text-decoration: none;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.02em;
+                color: #1B0A42;
+
+                &:not(:last-child){
+                    margin-right: 40px;
+                }
+
+                &--active{
+                    border-bottom: 2px groove #824FF1 ;
+                }
+                &:hover{
+                    border-bottom: 2px groove #824FF1 ;
+
+                }
+            }
+        
+        }
+        a{
+            margin-right: 40px;
+            margin-top: 30px;
+        }
+        
+    }
+}
+
+.page{
+
+    .page-wrap{
+        
+        display: flex;
+        justify-content: space-between;
+
+        .left-part{
+           max-width: 600px;
+           margin-left: 100px;
+           margin-top: 50px;
+           
+           .title{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 72px;
+            line-height: 76px;
+            letter-spacing: 0.02em;                                  
+            color: #1B0A42;
+           }
+           .desc{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 32px;
+            letter-spacing: 0.02em;
+            color: #9A9A9A;
+            margin-bottom: 50px;
+           }
+        }
+        .right-part{
+            position: relative;
+            max-width: 650px;
+            max-height: 700px;
+        }
+        .img1{
+            position: absolute;
+            margin-top: -600px;
+            margin-left: -80px;
+        }
+    }
+}
+
